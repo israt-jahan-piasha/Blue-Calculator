@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    
+    
+}
+.calculator {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(103, 142, 226);
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+input {
+    background-color:rgb(241, 241, 241) ;
+    height: 70px;
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+button {
+    width: 55px;
+    height: 55px;
+    margin: 5px;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:active {
+    background-color: rgb(39, 28, 49) ;
+}
+
+button:hover { background-color: rgb(186, 206, 232);
+
+}
